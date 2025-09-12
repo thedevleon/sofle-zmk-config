@@ -15,9 +15,9 @@
 #define RAISE 2
 #define ADJUST 3
 
-&led_strip {
-    chain-length = <36>; // Indicator + Drop Lighting (Underglow) + Backlight
-};
+// &led_strip {
+//     chain-length = <36>; // Indicator + Drop Lighting (Underglow) + Backlight
+// };
 
 / {
     // Activate ADJUST layer by pressing raise and lower
