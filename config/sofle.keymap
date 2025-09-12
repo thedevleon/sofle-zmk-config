@@ -19,6 +19,11 @@
 //     chain-length = <36>; // Indicator + Drop Lighting (Underglow) + Backlight
 // };
 
+// Bodge wire to TRRS data pin
+&nice_view_spi {
+    cs-gpios = <&pro_micro 0 GPIO_ACTIVE_HIGH>;
+};
+
 / {
     // Activate ADJUST layer by pressing raise and lower
 
